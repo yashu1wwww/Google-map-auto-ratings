@@ -6,7 +6,7 @@ Google map auto ratings using selenium with python in localhost
 
 https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
-#Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as l.py. The script is used to automatically like a particular YouTube video with multiple accounts
+#Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as map.py
 
 in map.py 20th line with which school,place etc..
 
