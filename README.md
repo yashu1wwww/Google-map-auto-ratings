@@ -12,7 +12,7 @@ in map.py 20th line with which school,place etc..
 
 you want auto rating replace it and in 33 line replace with comment...
 
-First, open Chrome file location and bypass the location restriction using an extension such as Touch VPN. In my case, the Chrome location(use start in: path) is
+First, open Chrome file location In my case, the Chrome location(use start in: path) is
 
 C:\Users\Hp\AppData\Local\Google\Chrome\Application
 
