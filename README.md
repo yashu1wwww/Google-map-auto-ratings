@@ -2,6 +2,8 @@
 
 Google map auto ratings using selenium with python in localhost
 
+ "𝖕𝖗𝖔𝖈𝖊𝖘𝖘 𝖎𝖓 𝖈𝖔𝖓𝖘𝖙𝖗𝖚𝖈𝖙𝖎𝖔𝖓 75% 𝖉𝖔𝖓𝖊 𝖗𝖊𝖒𝖆𝖎𝖓𝖎𝖓𝖌 𝖙𝖍𝖎𝖓𝖌𝖘 𝖐𝖓𝖔𝖜 𝖒𝖊𝖆𝖓𝖘 𝖋𝖔𝖗𝖐 𝖎𝖙"
+
 https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 #Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as l.py. The script is used to automatically like a particular YouTube video with multiple accounts
