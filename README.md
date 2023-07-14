@@ -16,11 +16,11 @@ Then,
 
 use the command
 
-chrome.exe --remote-debugging-port=9222 --user-data-dir="enter your localhost path here"
+chrome.exe --remote-debugging-port=8080 --user-data-dir="enter your localhost path here"
 
 to open Chrome with remote debugging enabled. In my case, the command was
 
-chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost"
+chrome.exe --remote-debugging-port=8080 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost"
 
 then new terminal in that folder and enter map.py (letter l not one)
 
