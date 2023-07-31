@@ -19,7 +19,7 @@ time.sleep(3)
 driver.get("https://www.google.com/maps/@12.9531904,77.6142848,12z?entry=ttu")
 time.sleep(3)
 search_box = driver.find_element(By.NAME, "q")
-search_box.send_keys("sarvodaya boys school")
+search_box.send_keys("sarvodaya boys school") #replace with your search place
 search_box.send_keys(Keys.RETURN)
 time.sleep(6)
 
