@@ -13,7 +13,7 @@ import random
 import os
 
 option = webdriver.ChromeOptions()
-option.add_experimental_option("debuggerAddress", "localhost:9222")
+option.add_experimental_option("debuggerAddress", "localhost:8080")
 driver = webdriver.Chrome(options=option)
 time.sleep(3)
 driver.get("https://www.google.com/maps/@12.9531904,77.6142848,12z?entry=ttu")
