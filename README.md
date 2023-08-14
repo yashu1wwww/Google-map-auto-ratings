@@ -1,6 +1,6 @@
 # Google-map-auto-ratings-using-multiple-accounts
 
-Google map auto ratings using selenium with python in localhost
+Google map auto ratings using selenium with python on localhost
 
  https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
