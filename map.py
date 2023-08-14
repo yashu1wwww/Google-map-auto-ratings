@@ -29,20 +29,5 @@ time.sleep(4)
 
 driver.find_element(By.CSS_SELECTOR, "#QA0Szd > div > div > div.w6VYqd > div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf > div.m6QErb.Hk4XGb.QoaCgb.KoSBEe.tLjsW > div > button > span > span").click() #click on write a review
 
-wait = WebDriverWait(driver, 10)
-star_button = wait.until(EC.presence_of_element_located((By.XPATH, '/html/body/div/c-wiz/div/div/div/c-wiz/div/div[1]/div[3]/div/div[2]/div/div[5]'))) #star element
+#After clicking on the "Write a review" button, the star option appears, but it appears in medium size. I've tried all possible methods to avoid clicking the star button. If this issue occurs, I will add the remaining part of the code. Alternatively, if you are familiar with it, you can fork the repository.
 
-actions = ActionChains(driver)
-actions.move_to_element(star_button).perform()
-
-star_button.click()
-
-time.sleep(3)
-
-driver.find_element(By.CSS_SELECTOR, "#c2").send_keys("nyc school") #replace with your word
-
-time.sleep(3)
-
-driver.find_element(By.CSS_SELECTOR, "#kCvOeb > div.bTLhlf > div > div.kEocrb > div > button > span").click() #post button click
-
-time.sleep(7)
