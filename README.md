@@ -1,6 +1,6 @@
 # Google-map-auto-ratings-using-multiple-accounts
 
-## having issue with rating button click if it happens i will update the code or if you know fork until write a review button the code runs fine...
+## having issue with rating button click if it happens i will update the code or if you know fork until write a review button the code runs fine..
 
 Google map auto ratings using selenium with python on localhost
 
