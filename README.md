@@ -1,6 +1,6 @@
 # Google-map-auto-ratings-using-multiple-accounts
 
-## if dont run then fork it...
+## If it doesn't run, then fork it...
 
 ## I just created code for fun, whether it runs or not, that's it.
 
@@ -10,9 +10,9 @@ Google map auto ratings using selenium with python on localhost
 
 #Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as map.py
 
-in map.py 27th line with which school,place etc..
+In map.py, on the 22nd line, specify the place or school, etc.
 
-you want auto rating replace it and in 42 line replace with comment...
+On the 39th line, make a comment about it.
 
 First, open Chrome file location In my case, the Chrome location(use start in: path) is
 
