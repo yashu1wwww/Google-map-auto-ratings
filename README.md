@@ -1,7 +1,5 @@
 # Google-map-auto-ratings-using-multiple-accounts
 
-## I just created code for fun, whether it runs or not, that's it.
-
 Google map auto ratings using selenium with python on localhost
 
  https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
@@ -10,7 +8,7 @@ Google map auto ratings using selenium with python on localhost
 
 ## In map.py, on the 22nd line, specify the place or school, etc.
 
-## On the 41th line, make a comment about it.
+## Replace 41 line with your text..
 
 First, open Chrome file location In my case, the Chrome location(use start in: path) is
 
