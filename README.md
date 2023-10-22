@@ -10,6 +10,8 @@ Google map auto ratings using selenium with python on localhost
 
 ## Replace 41 line with your text..
 
+If it comfort to use in undetected_chromedriver script then fork it...
+
 First, open Chrome file location In my case, the Chrome location(use start in: path) is
 
 C:\Users\Hp\AppData\Local\Google\Chrome\Application
