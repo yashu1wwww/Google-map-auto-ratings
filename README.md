@@ -1,7 +1,5 @@
 # Google-map-auto-ratings-using-multiple-accounts
 
-## If it doesn't run, then fork it...
-
 ## I just created code for fun, whether it runs or not, that's it.
 
 Google map auto ratings using selenium with python on localhost
