@@ -30,16 +30,21 @@ time.sleep(4)
 
 driver.find_element(By.CSS_SELECTOR, "#QA0Szd > div > div > div.w6VYqd > div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf > div.m6QErb.Hk4XGb.QoaCgb.KoSBEe.tLjsW > div > button > span > span").click() #click on write a review
 
-time.sleep(6)
-
-driver.find_element_by_css_selector("#yDmH0d > c-wiz > div > div > div > div > div.O51MUd > div.l5dc7b > div.DTDhxc.eqAW0b > div.euWHWd.aUVumf > div > div:nth-child(5)").click() #click on rating button 
-
-time.sleep(3)
-
-driver.find_element_by_xpath('/html/body/div/c-wiz/div/div/div/c-wiz/div/div[1]/div[3]/div/div[3]/div[1]/div/label/textarea').send_keys("one of the best school") #comment about it
+WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,"/html/body/div[8]/iframe")))
 
 time.sleep(2)
 
+driver.find_element_by_xpath('/html/body/div/c-wiz/div/div/div/c-wiz/div/div[1]/div[3]/div/div[2]/div/div[5]').click() #click on 5 star 
+
+time.sleep(1)
+
+driver.find_element_by_xpath('/html/body/div/c-wiz/div/div/div/c-wiz/div/div[1]/div[3]/div/div[3]/div[1]/div/label/textarea').send_keys("amazing school") #comment about the place..
+
+time.sleep(1)
+
+driver.find_element_by_xpath('//*[@id="kCvOeb"]/div[2]/div/div[2]/div/button/span').click() #post button click
+
+time.sleep(6)
 driver.find_element_by_xpath('/html/body/div/c-wiz/div/div/div/c-wiz/div/div[2]/div/div[2]/div/button/div[1]').click() #click on post button
 
 time.sleep(10)
