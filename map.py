@@ -45,6 +45,3 @@ time.sleep(1)
 driver.find_element_by_xpath('//*[@id="kCvOeb"]/div[2]/div/div[2]/div/button/span').click() #post button click
 
 time.sleep(6)
-driver.find_element_by_xpath('/html/body/div/c-wiz/div/div/div/c-wiz/div/div[2]/div/div[2]/div/button/div[1]').click() #click on post button
-
-time.sleep(10)
