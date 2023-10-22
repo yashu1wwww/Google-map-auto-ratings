@@ -8,9 +8,9 @@ Google map auto ratings using selenium with python on localhost
 
 #Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as map.py
 
-In map.py, on the 22nd line, specify the place or school, etc.
+## In map.py, on the 22nd line, specify the place or school, etc.
 
-On the 39th line, make a comment about it.
+## On the 41th line, make a comment about it.
 
 First, open Chrome file location In my case, the Chrome location(use start in: path) is
 
