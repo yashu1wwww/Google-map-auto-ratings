@@ -10,7 +10,7 @@ Google map auto ratings using selenium with python on localhost
 
 ## In map.py, on the 22nd line, specify the place or school, etc.
 
-## Replace 41 line with your text..
+## Replace 45 line with your text..
 
 If it comfort to use in undetected_chromedriver script then fork it...
 
