@@ -19,7 +19,7 @@ time.sleep(4)
 driver.get("https://www.google.com/maps/@12.9531904,77.6142848,12z?entry=ttu")
 time.sleep(4)
 search_box = driver.find_element(By.NAME, "q")
-search_box.send_keys("oxford school melbourne") #replace with your search place
+search_box.send_keys("Sarvodaya PU College, Tumakuru-1, Horpet, Ward No. 18, Tumkur, Tumakuru, Karnataka") #replace with your search place
 search_box.send_keys(Keys.RETURN)
 
 time.sleep(6)
@@ -32,11 +32,15 @@ driver.find_element(By.CSS_SELECTOR, "#QA0Szd > div > div > div.w6VYqd > div:nth
 
 WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,"/html/body/div[8]/iframe")))
 
-time.sleep(2)
+time.sleep(1)
+
+driver.execute_script('document.querySelector("#kCvOeb > div.O51MUd > div.C1FYvf > div.NUTAPc.CbHt0b > div.HDUCif > div > div.Rgwf9b > span.jwzVle > span > div.VfPpkd-dgl2Hf-ppHlrf-sM5MNb > button > span.VfPpkd-kBDsod").click()') #click on i icon which will popup..
+
+time.sleep(1)
 
 driver.find_element_by_xpath('/html/body/div/c-wiz/div/div/div/c-wiz/div/div[1]/div[3]/div/div[2]/div/div[5]').click() #click on 5 star 
 
-time.sleep(1)
+time.sleep(2)
 
 driver.find_element_by_xpath('/html/body/div/c-wiz/div/div/div/c-wiz/div/div[1]/div[3]/div/div[3]/div[1]/div/label/textarea').send_keys("amazing school") #comment about the place..
 
