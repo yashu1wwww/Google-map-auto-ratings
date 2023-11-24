@@ -12,7 +12,7 @@ Google map auto ratings using selenium with python on localhost
 
 ## Replace 45 line with your text..
 
-# If it comfort to use in undetected_chromedriver script then fork it...
+# If it comfort to use in undetected_chromedriver script and create with multi accounts then fork it...
 
 First, open Chrome file location In my case, the Chrome location(use start in: path) is
 
