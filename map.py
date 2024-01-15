@@ -56,9 +56,9 @@ time.sleep(6)
 #time.sleep(4)
 #email=driver.find_element_by_id("identifierId")
 #email.send_keys("myemail@gmail.com")
-#email.send_keys(Keys.ENTER)
+#email.send_keys(Keys.ENTER) #next button
 #time.sleep(3)
 #password=driver.find_element_by_name("Passwd")
 #password.send_keys("password@123")
-#password.send_keys(Keys.ENTER)
+#password.send_keys(Keys.ENTER) #next button
 #time.sleep(7)
