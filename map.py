@@ -51,6 +51,14 @@ driver.find_element_by_xpath('//*[@id="kCvOeb"]/div[2]/div/div[2]/div/button/spa
 time.sleep(6)
 
 #If You want using auto google acc login means use below 
-#ADD ACCOUNT CODE
+#ADD another google acc code...
 #driver.get("https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F%4012.9778041%2C77.5972793%2C17z%3Fentry%3Dttu&ec=GAlAcQ&hl=en&service=local&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S223320%3A1705299102932770&theme=glif")
-
+#time.sleep(4)
+#email=driver.find_element_by_id("identifierId")
+#email.send_keys("myemail@gmail.com")
+#email.send_keys(Keys.ENTER)
+#time.sleep(3)
+#password=driver.find_element_by_name("Passwd")
+#password.send_keys("password@123")
+#password.send_keys(Keys.ENTER)
+#time.sleep(7)
