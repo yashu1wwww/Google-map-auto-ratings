@@ -30,7 +30,7 @@ time.sleep(4)
 
 driver.find_element(By.CSS_SELECTOR, "#QA0Szd > div > div > div.w6VYqd > div:nth-child(2) > div > div.e07Vkf.kA9KIf > div > div > div.m6QErb.DxyBCb.kA9KIf.dS8AEf > div.m6QErb.Hk4XGb.QoaCgb.KoSBEe.tLjsW > div > button > span > span").click() #click on write a review
 
-WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,"/html/body/div[8]/iframe")))
+WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,"/html/body/div[6]/iframe")))
 
 time.sleep(1)
 
@@ -49,3 +49,8 @@ time.sleep(1)
 driver.find_element_by_xpath('//*[@id="kCvOeb"]/div[2]/div/div[2]/div/button/span').click() #post button click
 
 time.sleep(6)
+
+#If You want using auto google acc login means use below 
+#ADD ACCOUNT CODE
+#driver.get("https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F%4012.9778041%2C77.5972793%2C17z%3Fentry%3Dttu&ec=GAlAcQ&hl=en&service=local&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S223320%3A1705299102932770&theme=glif")
+
