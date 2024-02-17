@@ -32,9 +32,9 @@ driver.find_element(By.CSS_SELECTOR, "#QA0Szd > div > div > div.w6VYqd > div:nth
 
 WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,"/html/body/div[6]/iframe")))
 
-time.sleep(1)
+time.sleep(2)
 
-driver.execute_script('document.querySelector("#kCvOeb > div.O51MUd > div.C1FYvf > div.NUTAPc.CbHt0b > div.HDUCif > div > div.Rgwf9b > span.jwzVle > span > div.VfPpkd-dgl2Hf-ppHlrf-sM5MNb > button > span.VfPpkd-kBDsod").click()') #click on i icon which will popup..
+driver.find_element_by_css_selector("#kCvOeb > div.O51MUd > div.C1FYvf > div.NUTAPc.CbHt0b > div.HDUCif > div > div.Rgwf9b > span.jwzVle > span > div.VfPpkd-dgl2Hf-ppHlrf-sM5MNb > button > span.VfPpkd-kBDsod").click() #if popup appears...
 
 time.sleep(1)
 
@@ -51,7 +51,7 @@ driver.find_element_by_xpath('//*[@id="kCvOeb"]/div[2]/div/div[2]/div/button/spa
 time.sleep(6)
 
 #If You want using auto google acc login means use below 
-#ADD another google acc code...
+#ADD These code in line 19th line by replace with that line...
 #driver.get("https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fwww.google.com%2Fmaps%2F%4012.9778041%2C77.5972793%2C17z%3Fentry%3Dttu&ec=GAlAcQ&hl=en&service=local&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S223320%3A1705299102932770&theme=glif")
 #time.sleep(4)
 #email=driver.find_element_by_id("identifierId")
