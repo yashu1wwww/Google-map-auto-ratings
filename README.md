@@ -2,9 +2,7 @@
 
 Google map auto ratings using selenium with python on localhost
 
-## I searched on Google but couldn't find it, so I created it. That's it.
-
- https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
+https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 # Watch up to 3 minutes and 46 seconds, and then remain in the code
 
