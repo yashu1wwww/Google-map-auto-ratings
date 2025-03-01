@@ -12,6 +12,8 @@ https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 # If it comfort to use in undetected_chromedriver script and create with multi accounts then fork it...
 
+# 👉 Note: Every time google updates the code, it varies. So press 'Ctrl+Shift+C' to open the developer tools, and inspect and fork it..
+
 First, open Chrome file location In my case, the Chrome location(use start in: path) is
 
 C:\Users\Hp\AppData\Local\Google\Chrome\Application
