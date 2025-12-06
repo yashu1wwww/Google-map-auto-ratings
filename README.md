@@ -4,6 +4,12 @@ Google map auto ratings using selenium with python on localhost
 
 https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
+# If it not work use 
+
+https://try.cometbrowser.io/
+
+# Comet browser
+
 # Watch up to 3 minutes and 46 seconds, and then remain in the code
 
 ## In map.py, on the 22nd line, specify the place or school, etc.
